@@ -1,0 +1,20 @@
+.pokemonCard{
+    width:20rem;
+    box-shadow: 1px 1px 6px 4px #c2c2c2;
+}
+
+.pokemonCard > img{
+    height: 10rem;
+    width:10rem;
+}
+
+.pokemonCard:hover{
+    transition-property: box-shadow;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    box-shadow: 1px 1px 6px 4px #f7d0d0;
+}
+
+.pokemonCard > img {
+    border-bottom: 1px dashed #c2c2c2;
+}
